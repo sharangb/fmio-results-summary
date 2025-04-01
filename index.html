@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="card">
+    <section class="card-result">
+      <section class="card-result-header">
+        <h1>Your Result</h1>
+        <data value="76">
+          76
+          <span>
+            of 100
+          </span>
+        </data>
+      </section>
+      <section class="card-result-description">
+        <p class="card-result-verdict">
+          Great
+        </p>
+        <p class="card-result-description-text">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </section>
+    </section>
+    <section class="card-summary">
+      <h2>Summary</h2>
+      <ul class="card-summary-list">
+        <li class="card-summary-item card-summary-item-reaction">
+          <img src="./assets/images/icon-reaction.svg" alt="reaction">
+          <h3>Reaction</h3>
+          <p>80 <span> / 100</span></p>
+        </li>
+        <li class="card-summary-item card-summary-item-memory">
+          <img src="./assets/images/icon-memory.svg" alt="memory">
+          <h3>Memory</h3>
+          <p>92 <span> / 100</span></p>
+        </li>
+        <li class="card-summary-item card-summary-item-verbal">
+          <img src="./assets/images/icon-verbal.svg" alt="verbal">
+          <h3>Verbal</h3>
+          <p>61 <span> / 100</span></p>
+        </li>
+        <li class="card-summary-item card-summary-item-visual">
+          <img src="./assets/images/icon-visual.svg" alt="visual">
+          <h3>Visual</h3>
+          <p>73 <span> / 100</span></p>
+        </li>
+      </ul>
+      <button class="btn-primary">
+        Continue
+      </button>
+    </section>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
